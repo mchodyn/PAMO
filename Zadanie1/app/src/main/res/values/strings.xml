@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Zadanie1</string>
+    <string name="title">Kalkulator BMI</string>
+    <string name="weight">Waga</string>
+    <string name="height">Wzrost</string>
+    <string name="cm">CM</string>
+    <string name="kg">KG</string>
+    <string name="calculate">Oblicz BMI</string>
+    <string name="resultTitle">Twoje BMI to:</string>
+    <string name="warning">Cos poszło źle sprawdź dane</string>
 </resources>
