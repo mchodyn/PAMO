@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.zadanie2.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_bmi"
+        android:name="com.example.zadanie2.ui.bmi.BMIFragment"
+        android:label="@string/title_bmi"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/navigation_bmr"
+        android:name="com.example.zadanie2.ui.bmr.BMRFragment"
+        android:label="@string/title_bmi"
+        tools:layout="@layout/fragment_bmr" />
+
+    <fragment
+        android:id="@+id/navigation_food_idea"
+        android:name="com.example.zadanie2.ui.foodIdea.FoodIdeaFragment"
+        android:label="@string/title_food_idea"
+        tools:layout="@layout/fragment_food_idea" />
+</navigation>

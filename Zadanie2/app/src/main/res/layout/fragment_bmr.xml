@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.bmr.BMRFragment"
+    android:orientation="vertical"
+    >
+
+    <RadioGroup
+        android:id="@+id/radio_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:checked="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <RadioButton android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="@string/height_input"
+        android:importantForAutofill="no"
+        />
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:hint="@string/weight_input"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+        />
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:hint="@string/age_input"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+        />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/bmrResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold" />
+
+</LinearLayout>
