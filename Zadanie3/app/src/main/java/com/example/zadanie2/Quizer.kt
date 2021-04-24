@@ -13,10 +13,12 @@ class Quizer {
 
     private fun getQuizQuestions(): Array<Question> {
         return arrayOf(
-            Question("test1", "a1", "a2", "a3", 1),
-            Question("test2", "a1", "a2", "a3", 1),
-            Question("test3", "a1", "a2", "a3", 1),
-            Question("test4", "a1", "a2", "a3", 1)
+            Question("Ile posiłków dziennie powinno się jeść?", "2", "3", "5", 2),
+            Question("Ile litrów wody powinno się pić w ciągu dnia?", "1", "2", "12", 1),
+            Question("Który z posiłków jest najważniejszy?", "Śniadanie", "Obiad", "Kolacja", 0),
+            Question("Co ile godzin powinno się spożywać posiłki?", "1-2", "3-4", "6-7", 1),
+            Question("Ile godzin snu potrzebuje przeciętny człowiek?", "4-6", "9-10", "6-8", 2),
+            Question("W jakim wieku powinno się przestrzegać zasad zdrowego odżywiania się?", "Za młodu", "Na starość", "zawsze", 2)
         )
     }
 

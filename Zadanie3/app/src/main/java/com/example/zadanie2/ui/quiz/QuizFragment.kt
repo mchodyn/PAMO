@@ -58,7 +58,7 @@ class QuizFragment : Fragment() {
             if (checked != -1) {
                 val radioButton: View = radioGroup.findViewById(checked)
                 val idx: Int = radioGroup.indexOfChild(radioButton)
-                val properAnswer = quizer.getCurrentQuestion().properAnswer
+                val properAnswer = quizer.getCurrentQuestion().properAnswerIndex
                 when (properAnswer == idx) {
                     true -> quizer.addPoint()
                     false -> quizer.nextQuestion()
