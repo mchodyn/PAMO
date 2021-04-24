@@ -1,1 +1,1 @@
-Zadanie nr 2 kalkulator BMR z opcja podpowiadania posilkow na podstawie BMI
+Zadanie nr 3 quiz + wykres
