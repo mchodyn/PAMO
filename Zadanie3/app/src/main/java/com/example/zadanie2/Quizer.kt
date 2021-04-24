@@ -18,7 +18,7 @@ class Quizer {
             Question("Który z posiłków jest najważniejszy?", "Śniadanie", "Obiad", "Kolacja", 0),
             Question("Co ile godzin powinno się spożywać posiłki?", "1-2", "3-4", "6-7", 1),
             Question("Ile godzin snu potrzebuje przeciętny człowiek?", "4-6", "9-10", "6-8", 2),
-            Question("W jakim wieku powinno się przestrzegać zasad zdrowego odżywiania się?", "Za młodu", "Na starość", "zawsze", 2)
+            Question("W jakim wieku powinno się przestrzegać zasad zdrowego odżywiania się?", "Za młodu", "Na starość", "Zawsze", 2)
         )
     }
 
