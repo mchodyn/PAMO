@@ -16,9 +16,9 @@
         android:icon="@drawable/ic_baseline_calculate_24"
         android:title="@string/title_bmr" />
     <item
-        android:id="@+id/navigation_food_idea"
-        android:icon="@drawable/ic_baseline_food_bank_24"
-        android:title="@string/title_food_idea" />
+        android:id="@+id/navigation_quiz"
+        android:icon="@drawable/ic_baseline_fact_check_24"
+        android:title="@string/title_quiz" />
 
     <item
         android:id="@+id/navigation_chart"
